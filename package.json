@@ -1,0 +1,23 @@
+{
+  "name": "node-training",
+  "version": "1.0.0",
+  "description": "NodeJS Devon application",
+  "main": "index.js",
+  "scripts": {
+    "devon": "### Go to devon directory to start installs you wants",
+    "test": "mocha",
+    "devon-install-jest": "npm install --save-dev jest"
+  },
+  "keywords": [
+    "devon",
+    "node",
+    "nodejs",
+    "capgemini"
+  ],
+  "author": "example_user <example-user@example.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "mocha": "^6.1.4"
+  }
+}

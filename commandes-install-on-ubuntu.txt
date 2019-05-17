@@ -1,0 +1,47 @@
+
+Download: VMware Workstation Player
+From: https://my.vmware.com/fr/web/vmware/free#desktop_end_user_computing/vmware_workstation_player/15_0
+Install windows binary
+
+Download: ubuntu-18.04.2-desktop-amd64.iso
+From: https://www.ubuntu.com/download/desktop
+Create a new Ubuntu VM on VMware Workstation Player
+Start the created VM
+Add a shared folders between Windows and Ubuntu
+link: ln -s /mnt/hgfs/SHARED_DIR /win
+
+Download: Visual Studio Code version DEB 64 bits
+From: https://code.visualstudio.com/Download
+
+On: VM
+Install dependencies: sudo apt install curl git gcc make mono-complete kdiff3
+
+Install: node via n-install
+cap@ubuntu:/win$ curl -L https://git.io/n-install | bash -s -- -y lts
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+100 39430  100 39430    0     0  53068      0 --:--:-- --:--:-- --:--:--  204k
+-- Cloning https://github.com/tj/n to '/home/cap/n/n/.repo'...
+-- Running local n installation to '/home/cap/n/bin'...
+-- Shell initialization file '/home/cap/.bashrc' updated.
+-- Installing helper scripts in '/home/cap/n/bin'...
+-- Installing the requested Node.js version(s)...
+   1 of 1: lts...
+
+     install : node-v10.15.3
+       mkdir : /home/cap/n/n/versions/node/10.15.3
+       fetch : https://nodejs.org/dist/v10.15.3/node-v10.15.3-linux-x64.tar.gz
+######################################################################## 100.0%
+   installed : v10.15.3
+
+=== n successfully installed.
+  The active Node.js version is: v10.15.3
+
+  Run `n -h` for help.
+  To update n later, run `n-update`.
+  To uninstall, run `n-uninstall`.
+
+  IMPORTANT: OPEN A NEW TERMINAL TAB/WINDOW or run `. /home/cap/.bashrc`
+             before using n and Node.js.
+===

@@ -1,0 +1,23 @@
+{
+  "name": "devon",
+  "version": "1.0.0",
+  "description": "NodeJS Devon starter kit",
+  "main": "index.js",
+  "config" : { 
+    "project" : ".." 
+  },
+  "scripts": {
+    "config": "echo port = $npm_package_config_port",
+
+    "install:jest": "npm install jest --save-dev --prefix=$npm_package_config_project",
+    "install:mocha": "npm install mocha --save-dev --prefix=$npm_package_config_project"
+  },
+  "keywords": [
+    "devon",
+    "node",
+    "nodejs",
+    "capgemini"
+  ],
+  "author": "Jean-Pierre Arneodo <jean-pierre.arneodo@capgemini.com>",
+  "license": "MIT"
+}
