@@ -3,7 +3,7 @@
 ## Objectives
 
 * Discovering nodejs lifecycle
-* Cross the roadmap with your needs: application, private or public component, ...
+* Cross the roadmap with your needs: application development, private or public component, application management, ...
 
 ## Related links
 
