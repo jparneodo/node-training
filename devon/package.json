@@ -10,7 +10,11 @@
     "config": "echo port = $npm_package_config_port",
 
     "install:jest": "npm install jest --save-dev --prefix=$npm_package_config_project",
-    "install:mocha": "npm install mocha --save-dev --prefix=$npm_package_config_project"
+    "install:mocha": "npm install mocha --save-dev --prefix=$npm_package_config_project",
+    "install:jsdoc": "npm install jsdoc --save-dev --prefix=$npm_package_config_project",
+
+    "ls": "ls",
+    "ll": "ll"
   },
   "keywords": [
     "devon",
