@@ -19,3 +19,4 @@ Visual Studio Code | version DEB 64 bits            | https://code.visualstudio.
 
 https://github.com/jparneodo/node-training
 
+[next training](../training-01-discover/README.md)
