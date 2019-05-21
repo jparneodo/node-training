@@ -14,24 +14,19 @@ Learn more on successives versions on [Wikipedia](https://en.wikipedia.org/wiki/
 
 ## ECMAScript 6 - New Features: Overview & Comparison
 
-From http://es6-features.org copy and paste
+TRAINING From http://es6-features.org copy and paste javascript code.
 
-    - let
-    - const
-    - backquote multiligne
-    - destructuring http://exploringjs.com/es6/ch_destructuring.html#sec_overview-destructuring
-    - class / constructor / extends / super / getter / setter
-    - fonctions fléchées: (paramètres…) => { code }
-    - Native Promise
-    - for (const element of tableau) {}
-    - parametres par default: function point(x = 0, y = -1, estMarque = true) {}
-    - rest parameter
-    	function printf(format, ...params) {
-    	  console.log("params: ", params);
-    	  console.log("format: ", format);
-    	}
-    	printf("%s %d %.2f", "adrian", 321, Math.PI);
-    - spread operator: [ ...[1,2,3], ...['a','b'] ] donne [ 1, 2, 3, 'a', 'b' ]
-    - try…catch…finally (ES6 or before?)
+- const
+- let
+- backquote multiligne
+- [destructuring](http://exploringjs.com/es6/ch_destructuring.html#sec_overview-destructuring)
+- class / constructor / extends / super / getter / setter
+- Arrow Functions
+- Native Promise
+- for (const element of tableau) {}
+- default parameters
+- rest parameter
+- spread operator
+- try…catch…finally
 
 ## Complete and improve you knowledge by yourself

@@ -1,5 +1,7 @@
 'use strict';
 
+// TRAINING Start from node
+
 import { hello } from '../src/index';
 
 import { hello as bonjour } from '../src/index';

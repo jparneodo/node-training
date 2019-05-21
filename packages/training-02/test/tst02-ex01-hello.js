@@ -1,5 +1,7 @@
 'use strict';
 
+// TRAINING Start from node
+
 let { hello } = require('../src/index');
 
 let bonjour = require('../src/index').hello;
