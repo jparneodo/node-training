@@ -6,19 +6,26 @@
   "scripts": {
     "devon": "### Go to devon directory to start installs you wants",
     "test": "mocha",
-    "devon-install-jest": "npm install --save-dev jest"
+    "devon-install-jest": "npm install --save-dev jest",
+    "format": "npm run format:js && npm run format:css",
+    "format:js": "npx prettier-standard 'src/**/*.js'",
+    "format:css": "npx prettier-standard 'src/**/*.js'"
   },
   "keywords": [
     "devon",
     "node",
-    "nodejs",
-    "capgemini"
+    "nodejs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jparneodo/node-training.git"
+  },
   "author": "example_user <example-user@example.com>",
   "license": "MIT",
   "devDependencies": {
     "jest": "^24.8.0",
     "jsdoc": "^3.6.2",
-    "mocha": "^6.1.4"
+    "mocha": "^6.1.4",
+    "prettier-standard": "^9.1.1"
   }
 }
