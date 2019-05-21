@@ -1,23 +1,43 @@
 # Trainings
 
 ## [Prerequisites](./training-00-prerequisites)
-## [Dicovering Node.js](./training-01-discover)
-## [Installations](./training-02-install)
-## [ES 6 - ECMAScript 2015](./training-03-es6)
-## [The package.js file](./training-04-package.json)
-## [Developer tools](./training-05-build)
-## [Command Line Interpretor](./training-06-cli)
-## [Using callbacks](./training-07-fundation-callback)
-## [Using promises](./training-08-fundation-promise)
-## [Node.js modules (level 1)](./training-09-modules-natives-level1)
-## [Node.js modules (level 2)](./training-10-modules-natives-level2)
-## [Discovering public modules](./training-11-modules-publics)
-## [Discovering TypeScript](./training-12-typescript)
-## [Discovering all in one frameworks](./training-13-frameworks)
-## [Deploying on premise](./training-14-deploy-on-premise)
-## [Deploying on Google Cloud](./training-15-deploy-google-cloud)
-## [Deploying on Microsoft Azure](./training-16-deploy-microsoft-azure)
-## [Deploying on Microsoft Functions](./training-17-deploy-microsoft-functions)
-## [Deploying on Amazon ECS](./training-18-deploy-amazon-ecs)
-## [Deploying on Amazon Lambda](./training-19-deploy-amazon-lambda)
 
+Visual Studio Code, Operating System, Git
+
+## [Dicovering Node.js](./training-01-discover)
+
+## [Installations](./training-02-install)
+
+## [ES 6 - ECMAScript 2015](./training-03-es6)
+
+## [The package.js file](./training-04-package.json)
+
+## [Developer tools](./training-05-build)
+
+## [Command Line Interpretor](./training-06-cli)
+
+## [Using callbacks](./training-07-fundation-callback)
+
+## [Using promises](./training-08-fundation-promise)
+
+## [Node.js modules (level 1)](./training-09-modules-natives-level1)
+
+## [Node.js modules (level 2)](./training-10-modules-natives-level2)
+
+## [Discovering public modules](./training-11-modules-publics)
+
+## [Discovering TypeScript](./training-12-typescript)
+
+## [Discovering all in one frameworks](./training-13-frameworks)
+
+## [Deploying on premise](./training-14-deploy-on-premise)
+
+## [Deploying on Google Cloud](./training-15-deploy-google-cloud)
+
+## [Deploying on Microsoft Azure](./training-16-deploy-microsoft-azure)
+
+## [Deploying on Microsoft Functions](./training-17-deploy-microsoft-functions)
+
+## [Deploying on Amazon ECS](./training-18-deploy-amazon-ecs)
+
+## [Deploying on Amazon Lambda](./training-19-deploy-amazon-lambda)

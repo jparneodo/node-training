@@ -1,0 +1,17 @@
+{
+  "name": "@training/exo-02",
+  "main": "./src/index.js",
+  "type": "module",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "author": "Training <training@example.com>",
+  "scripts": {
+    "format": "npx prettier-standard 'src/**/*.js'"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "prettier-standard": "^9.1.1"
+  }
+}

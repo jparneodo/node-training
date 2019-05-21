@@ -17,5 +17,3 @@
 ## Checkout training project
 
 https://github.com/jparneodo/node-training
-
-Training: [up](../README.md) [next](../training-01-discover/README.md)
