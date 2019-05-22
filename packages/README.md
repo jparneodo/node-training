@@ -1,10 +1,15 @@
 # Trainings
 
+Using TODOS in Visual Studio Code you can see your progression.
+
+- TRAINING is a training to do
+- Replace TRAINING by TRAINED when you are ok
+
 ## [Prerequisites](./training-00-prerequisites)
 
 Visual Studio Code, Operating System, Git
 
-## [Dicovering Node.js](./training-01-discover)
+## [Discovering Node.js](./training-01-discover)
 
 ## [Installations](./training-02-install)
 
