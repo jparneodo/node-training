@@ -86,30 +86,33 @@ Installing some development tools:
 
 - [Mocha](https://mochajs.org/) - Feature-rich JavaScript test framework running on Node.js and in the browser
 
-Installing as a global command can interfer with multiple projects.
+Installing as a global command can interfer with multiple projects with different versions.
+
+TRAINING Try these commands and look at the _package.json_ changes and the subdirectory structure
 
 ```bash
 # Install as a global shell script command (avoid)
-$ npm install --global mocha
-$ mocha
+# $ npm install --global mocha
+# $ mocha
 
 # Install as development dependency for your project (recommended)
 $ npm install --save-dev mocha
-$
+$ npx mocha
+$ npm test
+
+# Clean up
+$ npm uninstall mocha
+$ mocha
+
+# Install from package.json dependencies for production
+$ npm install --production
+$ npm list
+
+# Install from package.json dependencies
+$ npm install
+$ npm list
 ```
 
-## TODO package.json
+Learn more:
 
-    	= script commands :
-    		https://docs.npmjs.com/cli/run-script
-    		http://www.marcusoft.net/2015/08/npm-scripting-configs-and-arguments.html
-    		ci/cd integration
-    		best practice to follow
-    - properties: https://docs.npmjs.com/files/package.json
-    	standard properties
-    	dependencies
-    	devDependencies
-    - samples
-    	https://github.com/evanshortiss/express-joi-validation/blob/master/package.json
-    	https://stackoverflow.com/questions/40899849/generate-jsdoc-documentation
-    	https://github.com/jsdoc2md/jsdoc-to-markdown/wiki/How-to-use-with-npm-run
+- [env-var](https://github.com/evanshortiss/env-var/blob/master/package.json) - Verification, sanatization, and type coercion for environment variables
