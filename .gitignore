@@ -62,3 +62,7 @@ typings/
 
 # Generated documentation
 jsdocs/
+
+# Trainings
+packages/training-05-build/exo-05-03-mocha/src
+packages/training-05-build/exo-05-03-mocha/test

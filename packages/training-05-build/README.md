@@ -32,37 +32,65 @@ Use _shan.code-settings-sync_ extension to synchronize all vsc with same setting
 
 TRAINING Try using configured guidelines starting `npm run` commands in `exo-05-01-standardjs`
 
-## Sources documentation
+## Sources documentation with jsdoc
 
 - https://jsdoc.app/ - An API documentation generator for JavaScript ([Github](https://github.com/jsdoc/jsdoc))
 - [Configuration](https://jsdoc.app/about-configuring-jsdoc.html) - Configuring JSDoc with a configuration file
+- [Converter](https://www.npmjs.com/package/jsdoc-to-markdown) - jsdoc to markdown
+
+TRAINING Build your first documentation in `exo-05-02-jsdoc`
+
+## Unit Test
+
+Definitions:
+
+- _TDD_ : Test Driven Development
+- _BDD_ : Behaviour Driven Development
+
+A lot of tools exists. Some of them are described here.
+
+| Tool     | Type | Url                                                                   |
+| -------- | ---- | --------------------------------------------------------------------- |
+| mocha    | TDD  | https://mochajs.org/ https://www.npmjs.com/package/mocha              |
+| jest     | TDD  | https://jestjs.io/ https://www.npmjs.com/package/jest                 |
+| ava      | TDD  | https://github.com/avajs/ava                                          |
+| tap      | TDD  | https://www.node-tap.org/ https://www.npmjs.com/package/tap           |
+| chai     | TDD  | https://www.chaijs.com/ https://www.npmjs.com/package/chai            |
+| jasmine  | TDD  | https://jasmine.github.io/                                            |
+| cucumber | BDD  | https://cucumber.io https://cucumber.io/docs/installation/javascript/ |
+
+### Installing mocha + chai
+
+TRAINING Try your first example in `exe-05-03-mocha`
+
+### Installing jest
+
+TODO test / cucumber
+
+### Installing jasmine
+
+TODO test / cucumber
+
+### Installing cucumber
+
+TODO test / cucumber
+
+## Code coverage
+
+https://istanbul.js.org/
+https://www.npmjs.com/package/mocha-lcov-reporter
+
+## CI / CD
+
+Continuous Integration and Continuous Delivery and/or Continuous Deployment tools:
+
+- https://jenkins.io/
+- https://sonarcloud.io
+- https://coveralls.io/
+- ... and more
+
+TODO Docker
 
 ## TODO subject to complete
 
-    - CI/CD
-
-    	inline documentation
-    		install https://github.com/jsdoc/jsdoc https://github.com/tostegroo/toast
-    		usage https://jsdoc.app/
-    		markdown https://www.npmjs.com/package/jsdoc-to-markdown
-    		howto https://www.akshatsharma.com/posts/how%20to%20jsdoc/index.html
-    	test
-    		mocha https://mochajs.org/ https://www.npmjs.com/package/mocha
-    		jest https://jestjs.io/ https://www.npmjs.com/package/jest
-    		ava https://github.com/avajs/ava
-    		tap https://www.node-tap.org/ https://www.npmjs.com/package/tap
-    		chai https://www.chaijs.com/ https://www.npmjs.com/package/chai
-    	Test Driven Development / Behaviour Driven Development
-    		https://jasmine.github.io/
     		https://medium.com/@joantolos/6-tools-to-help-you-do-tdd-with-nodejs-70d19a9ca041
-    		https://cucumber.io/docs/installation/javascript/
-    	code coverage
-    		https://istanbul.js.org/
-    		https://www.npmjs.com/package/mocha-lcov-reporter
-    	Fomatting code
-    		https://prettier.io/docs/en/
-    	integrated tools
-    		https://jenkins.io/
-    		https://sonarcloud.io
-    		https://coveralls.io/
-    - docker

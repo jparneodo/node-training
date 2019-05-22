@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test": "npm run test:mocha",
+    "test:mocha": "node ./node_modules/mocha/bin/mocha --recursive",
+    "petstore": "npm run petstore:download && npm run petstore:install:src && npm run petstore:install:test",
+    "petstore:download": "npm install swagger_petstore --no-audit",
+    "petstore:install:src": "cp -r ./node_modules/swagger_petstore/src .",
+    "petstore:install:test": "cp -r ./node_modules/swagger_petstore/test .",
+    "postinstall": "npm run petstore && npm test"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.3.4",
+    "sinon": "1.17.3"
+  },
+  "dependencies": {
+    "swagger_petstore": "^1.0.0"
+  }
+}

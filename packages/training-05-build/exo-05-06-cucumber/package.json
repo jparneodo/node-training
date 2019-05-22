@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "npm run test:cucumber",
+    "test:cucumber": "npx cucumber"
+  },
+  "devDependencies": {
+    "cucumber": "^5.1.0"
+  }
+}
