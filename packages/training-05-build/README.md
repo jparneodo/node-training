@@ -27,21 +27,20 @@ Use _shan.code-settings-sync_ extension to synchronize all vsc with same setting
 
 - https://standardjs.com/ - JavaScript Standard Style
 - https://github.com/Flet/semistandard - JavaScript Semi Standard Style
-- http://www.javascriptlint.com/
+- https://github.com/airbnb/javascript - Airbnb JavaScript Style Guide
+- [Mode strict](https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it) - Don't forget `'use strict';` statement
 
-## Install and configure _package.json_ file
+TRAINING Try using configured guidelines starting `npm run` commands in `exo-05-01-standardjs`
 
--
+## Sources documentation
+
+- https://jsdoc.app/ - An API documentation generator for JavaScript ([Github](https://github.com/jsdoc/jsdoc))
+- [Configuration](https://jsdoc.app/about-configuring-jsdoc.html) - Configuring JSDoc with a configuration file
 
 ## TODO subject to complete
 
-    - Guidelines
-    	= https://standardjs.com/
-    	= http://www.javascriptlint.com/
-    	= npm trends:
     - CI/CD
-    	mode strict
-    		https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it
+
     	inline documentation
     		install https://github.com/jsdoc/jsdoc https://github.com/tostegroo/toast
     		usage https://jsdoc.app/

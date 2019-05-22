@@ -1,0 +1,13 @@
+{
+  "name": "training-05-build-jsdoc",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build:jsdoc": "npx jsdoc --configure jsdoc.conf.json"
+  },
+  "devDependencies": {
+    "foodoc": "0.0.9",
+    "jsdoc": "*"
+  }
+}
