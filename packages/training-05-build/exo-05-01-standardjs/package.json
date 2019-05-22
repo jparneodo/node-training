@@ -1,0 +1,32 @@
+{
+  "name": "@training/training-04-es6",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "format": "npx prettier-standard 'src/**/*.js'",
+    "test": "npm run format && npm run test:semistandard && npm run test:mocha",
+    "test:standard": "npx standard",
+    "test:semistandard": "npx semistandard",
+    "test:mocha": "mocha"
+  },
+  "standard": {
+    "ignore": [
+      "**/out/",
+      "/junk/",
+      "junk.js"
+    ]
+  },
+  "semistandard": {
+    "ignore": [
+      "**/out/",
+      "/junk/",
+      "junk.js"
+    ]
+  },
+  "devDependencies": {
+    "prettier-standard": "^9.1.1",
+    "standard": "*",
+    "semistandard": "*"
+  }
+}

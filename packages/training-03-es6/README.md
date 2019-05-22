@@ -14,12 +14,14 @@ Learn more on successives versions on [Wikipedia](https://en.wikipedia.org/wiki/
 
 ## ECMAScript 6 - New Features: Overview & Comparison
 
-TRAINING From http://es6-features.org copy and paste javascript code.
+TRAINING from http://es6-features.org copy and paste javascript code, from ES6 to ES6 syntax.
+
+TRAINING with https://github.com/airbnb/javascript for best practices
 
 - const
 - let
 - backquote multiligne
-- [destructuring](http://exploringjs.com/es6/ch_destructuring.html#sec_overview-destructuring)
+- destructuring
 - class / constructor / extends / super / getter / setter
 - Arrow Functions
 - Native Promise

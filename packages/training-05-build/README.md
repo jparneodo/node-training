@@ -2,10 +2,7 @@
 
 ## Visual Studio Code settings
 
-### Use _shan.code-settings-sync_ extension to synchronize all vsc with same settings.
-
-- on your multiple devices
-- between users on same project
+https://code.visualstudio.com/
 
 ### Some extensions to better build applications
 
@@ -19,9 +16,18 @@
 | msjsdiag.debugger-for-chrome      | Debugger for Chrome       |                                                                                        | Productivity                  |
 | formulahendry.code-runner         | Code Runner               | Run code snippet or code file for multiple languages                                   | Productivity                  |
 
+### Synchronize all Visual Studio Code if needed
+
+Use _shan.code-settings-sync_ extension to synchronize all vsc with same settings.
+
+- on your multiple devices
+- between users on same project
+
 ## Guidelines
 
-Install
+- https://standardjs.com/ - JavaScript Standard Style
+- https://github.com/Flet/semistandard - JavaScript Semi Standard Style
+- http://www.javascriptlint.com/
 
 ## Install and configure _package.json_ file
 
@@ -29,9 +35,6 @@ Install
 
 ## TODO subject to complete
 
-    - Visual Studio Code :
-    	vsc for linux or windows https://code.visualstudio.com/Download
-    	extensions: npm, npm intellisense, json, ...
     - Guidelines
     	= https://standardjs.com/
     	= http://www.javascriptlint.com/
