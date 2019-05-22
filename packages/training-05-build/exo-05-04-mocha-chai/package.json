@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "test": "npm run test:mocha",
+    "test:mocha": "node ./node_modules/mocha/bin/mocha --recursive"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {}
+}

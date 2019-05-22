@@ -49,19 +49,29 @@ Definitions:
 
 A lot of tools exists. Some of them are described here.
 
-| Tool     | Type | Url                                                                   |
-| -------- | ---- | --------------------------------------------------------------------- |
-| mocha    | TDD  | https://mochajs.org/ https://www.npmjs.com/package/mocha              |
-| jest     | TDD  | https://jestjs.io/ https://www.npmjs.com/package/jest                 |
-| ava      | TDD  | https://github.com/avajs/ava                                          |
-| tap      | TDD  | https://www.node-tap.org/ https://www.npmjs.com/package/tap           |
-| chai     | TDD  | https://www.chaijs.com/ https://www.npmjs.com/package/chai            |
-| jasmine  | TDD  | https://jasmine.github.io/                                            |
-| cucumber | BDD  | https://cucumber.io https://cucumber.io/docs/installation/javascript/ |
+| Tool     | Type    | Url                                                                   |
+| -------- | ------- | --------------------------------------------------------------------- |
+| mocha    | TDD     | https://mochajs.org/ https://www.npmjs.com/package/mocha              |
+| jest     | TDD     | https://jestjs.io/ https://www.npmjs.com/package/jest                 |
+| ava      | TDD     | https://github.com/avajs/ava                                          |
+| tap      | TDD     | https://www.node-tap.org/ https://www.npmjs.com/package/tap           |
+| chai     | TDD/BDD | https://www.chaijs.com/ https://www.npmjs.com/package/chai            |
+| jasmine  | TDD     | https://jasmine.github.io/                                            |
+| cucumber | BDD     | https://cucumber.io https://cucumber.io/docs/installation/javascript/ |
 
 ### Installing mocha + chai
 
-TRAINING Try your first example in `exe-05-03-mocha`
+TRAINING Try your first example in `exe-05-03-mocha-sample`.
+
+```bash
+# Understand which happen here
+npm install
+
+# Learn about auditing nodejs modules
+npm audit
+```
+
+TRAINING Write a clean sample in `exe-05-04-mocha-chai`.
 
 ### Installing jest
 
