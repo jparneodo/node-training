@@ -40,36 +40,54 @@ node [options] [V8 options] [script.js | -e "script" | - ] [arguments]
 Two method exists:
 
 - CJS - Node Modules (a CommonJS variant). Historical Node loader
-- ESM - Ecma262 Modules (ES Modules)
+- ESM - Ecma262 Modules (ES Modules) - See [roadmap](https://github.com/nodejs/modules/blob/master/doc/plan-for-new-modules-implementation.md)
 
 TRAINING [Learn about methods](https://github.com/nodejs/node-eps/blob/master/002-es-modules.md)
 
-TRAINING Try to update `exo-06-01-cjs` and launch `node src/app`
+TRAINING Try to update `exo-06-01-cjs` and launch `node src/app-cjs`
 
-TRAINING Try to update `exo-06-01-esm` and launch `node src/app`
+TRAINING Try to update `exo-06-02-esm` and launch `node src/app-esm`
 
-###
+TRAINING Try to update `exo-06-01-cjs` and mix `node src/app-esm`
 
-## Node options
+TRAINING Try to update `exo-06-02-esm` and mix `node src/app-cjs`
 
-    - requiring module
-    	nodejs method
-    	EcmaScript method
-    - file organization patterns/anti-patterns
-    	https://github.com/i0natan/nodebestpractices#1-project-structure-practices
-    	https://codeburst.io/fractal-a-nodejs-app-structure-for-infinite-scale-d74dda57ee11
-    	mvc patterns
-    	ddd patterns
-    - la boucle d'événements
-    	= exemple de blocage
-    	= voir fin de cette page: https://jscomplete.com/learn/node-beyond-basics/child-processes
-    - debug in Visual Studio Code
-    - debug in chromium
-    - faq
-    	What is process in node JS ?
-    		The process object is a global that provides information about, and control over, the current Node.js process.
-    		As a global, it is always available to Node.js applications without using require().
-    		It can also be explicitly accessed using require() : const process = require('process');
-    		Action:
-    		linux> node
-    		node> process
+## File organization patterns/anti-patterns
+
+Node.js best practice is to have a lot of small files.
+
+But in important project, files must be organized. Some ideas:
+
+- https://github.com/i0natan/nodebestpractices#1-project-structure-practices
+
+## The node event loop
+
+Node.js run on a single thread. But all node actions are asynchronous.
+
+- [Some short introduction](https://medium.com/the-node-js-collection/what-you-should-know-to-really-understand-the-node-js-event-loop-and-its-metrics-c4907b19da4c)
+- [Tired? half an hour on Youtube!](https://www.youtube.com/watch?v=8aGhZQkoFbQ) to understand
+- [in node.js documentation](https://nodejs.org/en/docs/guides/event-loop-timers-and-nexttick/)
+
+TRAINING Try `exo-06-03-event-loop`
+
+## Debug your code
+
+Several methods to start a debugger:
+
+- in a terminal
+- in Visual Studio Code
+- with [Chrome DevTools](https://medium.com/@paul_irish/debugging-node-js-nightlies-with-chrome-devtools-7c4a1b95ae27), and [Node documentation](https://nodejs.org/en/docs/guides/debugging-getting-started/)
+
+I think you are ok with Visual Studio Code.
+
+```bash
+# Debug in a terminal
+node inspect obstruct.js
+```
+
+```bash
+# with Chrome DevTools
+node --inspect obstruct.js
+node --inspect-brk obstruct.js
+# Open Chromium and go to chrome://inspect/#devices
+```

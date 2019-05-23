@@ -2,6 +2,9 @@
 
 // TRAINING Add changes here to import this module with CJS format
 
+// Start command:
+//  node --experimental-modules app-1-from-esm.mjs
+
 // hello from './mymodule' using destructuring
 
 // bonjour from './mymodule' hello property

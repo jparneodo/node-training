@@ -58,8 +58,12 @@ nvm use 10.15.3
 1. Switch node version using `n`
 
 ```bash
-me@linux:node-training$ node -v
-node> <Control-D>
+# Node version
+node -v
+# Interactive node, enter Control-D to exit
+node
+# Inline snippet code
+node -e 'console.log(process)'
 ```
 
 1. Open file `src/ex/ex-02-hello-world.js`
