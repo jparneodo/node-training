@@ -1,8 +1,13 @@
 {
   "scripts": {
-    "test": "npm run test:mocha",
-    "test:jest": "node ./node_modules/mocha/bin/mocha --recursive"
+    "test": "npm run test:jest",
+    "test:jest": "jest --coverage"
   },
-  "devDependencies": {},
-  "dependencies": {}
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "jest": "^24.8.0"
+  },
+  "dependencies": {
+    "nyc": "^14.1.1"
+  }
 }

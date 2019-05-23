@@ -9,7 +9,8 @@
     "devon-install-jest": "npm install --save-dev jest",
     "format": "npm run format:js && npm run format:css",
     "format:js": "npx prettier-standard 'src/**/*.js'",
-    "format:css": "npx prettier-standard 'src/**/*.js'"
+    "format:css": "npx prettier-standard 'src/**/*.js'",
+    "cleanup": "find . -name node_modules -exec rm {} \\;"
   },
   "keywords": [
     "devon",

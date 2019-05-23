@@ -59,6 +59,10 @@ A lot of tools exists. Some of them are described here.
 | jasmine  | TDD     | https://jasmine.github.io/                                            |
 | cucumber | BDD     | https://cucumber.io https://cucumber.io/docs/installation/javascript/ |
 
+Comparisons:
+
+- https://stackshare.io/stackups/ava-vs-jest-vs-mocha
+
 ### Installing mocha + chai
 
 TRAINING Try your first example in `exe-05-03-mocha-sample`.
@@ -72,9 +76,12 @@ npm install
 # Learn about auditing nodejs modules
 npm audit
 # Try to fix vulnerabilities performing commands below one by one and look at the results
+# Copy the package-lock.json to package-lock.before.json
 # npm audit fix
 # npm audit fix --force
+# Verify your code
 # npm test
+# Compare package-lock.json to package-lock.before.json
 ```
 
 TRAINING Write a clean sample in `exe-05-04-mocha-chai`.
@@ -86,6 +93,11 @@ Be sure to use the correct method to compare. Explanations are here:
 ### Installing jest
 
 TRAINING Try your first example in `exe-05-05-jest`.
+
+```bash
+npm install
+npm test
+```
 
 ### Installing jasmine
 
