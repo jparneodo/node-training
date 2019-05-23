@@ -99,6 +99,10 @@ npm install
 npm test
 ```
 
+Code coverage is included in jest.
+
+- https://blog.ippon.fr/2018/09/13/jest-ou-les-tests-js-sans-douleur/ (french)
+
 ### Installing jasmine
 
 TODO test / jasmine
@@ -109,8 +113,8 @@ TODO test / cucumber
 
 ## Code coverage
 
-https://istanbul.js.org/
-https://www.npmjs.com/package/mocha-lcov-reporter
+- https://istanbul.js.org/
+- https://www.npmjs.com/package/mocha-lcov-reporter
 
 ## CI / CD
 

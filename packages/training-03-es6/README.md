@@ -10,7 +10,7 @@ Learn more on successives versions on [Wikipedia](https://en.wikipedia.org/wiki/
 - [Understanding ECMAScript 6](https://leanpub.com/understandinges6/read/) - A book by by Nicholas C. Zakas
 - [ES6 features](http://es6-features.org) - New Features: Overview & Comparison by Ralf S. Engelschall
 - [ECMAScript® 2015 Language Specification](https://www.ecma-international.org/ecma-262/6.0/)
-- [Compatibility table](http://kangax.github.io/compat-table/es6/) - Supported platforms
+- Compatibility tables: [kangax supported platforms](http://kangax.github.io/compat-table/es6/) / [Node green](https://node.green/)
 
 ## ECMAScript 6 - New Features: Overview & Comparison
 
