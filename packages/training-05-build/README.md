@@ -63,15 +63,25 @@ A lot of tools exists. Some of them are described here.
 
 TRAINING Try your first example in `exe-05-03-mocha-sample`.
 
+Npm complains about security vulnerabilities
+
 ```bash
-# Understand which happen here
+# Look at the *package.json* and understand which happen here
 npm install
 
 # Learn about auditing nodejs modules
 npm audit
+# Try to fix vulnerabilities performing commands below one by one and look at the results
+# npm audit fix
+# npm audit fix --force
+# npm test
 ```
 
 TRAINING Write a clean sample in `exe-05-04-mocha-chai`.
+
+Be sure to use the correct method to compare. Explanations are here:
+
+- [What the f\*ck JavaScript?](https://github.com/denysdovhan/wtfjs)
 
 ### Installing jest
 

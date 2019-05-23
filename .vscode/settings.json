@@ -1,5 +1,6 @@
 // Place your settings in this file to overwrite default and user settings.
 {
   "editor.tabSize": 2,
-  "editor.insertSpaces": true
+  "editor.insertSpaces": true,
+  "mocha.subdirectory": "packages/training-05-build/exo-05-04-mocha-chai/test"
 }

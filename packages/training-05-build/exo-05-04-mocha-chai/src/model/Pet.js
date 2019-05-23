@@ -29,14 +29,19 @@ class Pet {
      */
     this.status = undefined;
   }
-  fromJson(data) {
-    // assert(typeof data === 'object', 'Pet in json');
-    this.id = data.id;
-    this.category = data.category;
-    this.name = data.name;
-    this.photoUrls = data.photoUrls;
-    this.tags = data.tags;
-    this.status = data.status;
+  static fromJson(data) {
+    const dataType = typeof data;
+    if (typeof data !== 'object') {
+      throw Error('json expected, found ' + dataType);
+    }
+    const pet = new Pet();
+    pet.id = data.id;
+    pet.category = data.category;
+    pet.name = data.name;
+    pet.photoUrls = data.photoUrls;
+    pet.tags = data.tags;
+    pet.status = data.status;
+    return pet;
   }
 }
 
