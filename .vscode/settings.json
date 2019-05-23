@@ -2,5 +2,5 @@
 {
   "editor.tabSize": 2,
   "editor.insertSpaces": true,
-  "mocha.subdirectory": "packages/training-05-build/exo-05-04-mocha-chai/test"
+  "mocha.subdirectory": "packages/training-05-build/exo-05-04-mocha-chai"
 }

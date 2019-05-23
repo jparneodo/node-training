@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "test": "npm run test:mocha",
+    "test:jest": "node ./node_modules/mocha/bin/mocha --recursive"
+  },
+  "devDependencies": {},
+  "dependencies": {}
+}

@@ -85,11 +85,11 @@ Be sure to use the correct method to compare. Explanations are here:
 
 ### Installing jest
 
-TODO test / cucumber
+TRAINING Try your first example in `exe-05-05-jest`.
 
 ### Installing jasmine
 
-TODO test / cucumber
+TODO test / jasmine
 
 ### Installing cucumber
 
