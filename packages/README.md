@@ -2,7 +2,7 @@
 
 ## What is it?
 
-    Node.js is a JavaScript runtime that uses a non-blocking I/O model that makes it lightweight, efficient and very popular among JavaScript developers who also need to write server-side code. If you need any proof that Node.js can help scale your application, look no further than examples like Netflix, PayPal and Uber, which are currently using Node.js to deliver fast, scalable and reliable solutions.
+    📝 Node.js is a JavaScript runtime that uses a non-blocking I/O model that makes it lightweight, efficient and very popular among JavaScript developers who also need to write server-side code. If you need any proof that Node.js can help scale your application, look no further than examples like Netflix, PayPal and Uber, which are currently using Node.js to deliver fast, scalable and reliable solutions.
 
 Learn Node.js on [pluralsight](https://app.pluralsight.com).
 
