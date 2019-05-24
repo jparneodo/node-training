@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "ex1": "rm ./logs/* && node app-07-01-callback-hell && more ./logs/*",
+    "ex2": "rm ./logs/* && node app-08-01-callback-hell-refactor && more ./logs/*"
+  }
+}

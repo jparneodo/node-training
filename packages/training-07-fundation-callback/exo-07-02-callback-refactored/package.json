@@ -1,0 +1,5 @@
+{
+  "scripts": {
+    "ex3": "rm ./logs/* && node app-07-02-callback-refactored && more ./logs/*"
+  }
+}
