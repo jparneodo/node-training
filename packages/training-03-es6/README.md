@@ -1,4 +1,4 @@
-# ECMASCript 6
+# ECMAScript 6
 
 The official name is ECMAScript 2015, but ES6 is the name that everyone knows and uses.
 Learn more on successives versions on [Wikipedia](https://en.wikipedia.org/wiki/ECMAScript).

@@ -17,3 +17,10 @@
 ## Checkout training project
 
 https://github.com/jparneodo/node-training
+
+## Visual Studio Code TODOS extension
+
+Using TODOS in Visual Studio Code you can see your progression.
+
+- TRAINING is a training to do
+- Replace TRAINING by TRAINED when you are ok
