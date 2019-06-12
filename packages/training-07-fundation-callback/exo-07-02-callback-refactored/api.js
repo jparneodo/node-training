@@ -83,7 +83,7 @@ function logAccess(username, callback) {
   const subdir = Math.random() * 10 > 8 ? 'logs-buggy' : 'logs';
 
   // Build the file name to save logs
-  const filename = `./${subdir}/${data.at}.${username}.json`;
+  const filename = `${process.env.PWD}/${subdir}/${data.at}.${username}.json`;
 
   // Write to disk, async mode
   // See node api: https://nodejs.org/dist/latest-v10.x/docs/api/fs.html#fs_fs_writefile_file_data_options_callback
