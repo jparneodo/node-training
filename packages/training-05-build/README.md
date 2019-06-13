@@ -1,4 +1,4 @@
-#
+# Development
 
 ## Visual Studio Code settings
 
@@ -29,6 +29,11 @@ Use _shan.code-settings-sync_ extension to synchronize all vsc with same setting
 - https://github.com/Flet/semistandard - JavaScript Semi Standard Style
 - https://github.com/airbnb/javascript - Airbnb JavaScript Style Guide
 - [Mode strict](https://stackoverflow.com/questions/1335851/what-does-use-strict-do-in-javascript-and-what-is-the-reasoning-behind-it) - Don't forget `'use strict';` statement
+
+## Node.js Best Practices:
+
+- [Node.js Best Practices](https://github.com/i0natan/nodebestpractices#1-project-structure-practices), and [translations](https://github.com/i0natan/nodebestpractices#translations) ([français](https://github.com/gaspaonrocks/nodebestpractices/blob/french-translation/README.french.md))
+- [On Twitter](https://twitter.com/nodepractices/)
 
 TRAINING Try using configured guidelines starting `npm run` commands in `exo-05-01-standardjs`
 

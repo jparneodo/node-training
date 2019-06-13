@@ -71,7 +71,7 @@ async function login (u,p) {
 
 TRAINING refactor the _login_ function promisifying the api `app-08-04-promise-async-await`
 
-Using parallel call:
+## Using parallel call:
 
 ```javascript
 // See https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/all
