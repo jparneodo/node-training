@@ -1,0 +1,21 @@
+{
+  "name": "training-12-typescript",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "tsc": "tsc",
+    "tsc:init": "npm run tsc -- --init",
+    "app": "node build/app.js",
+    "dev": "ts-node-dev --respawn --transpileOnly ./app/app.ts",
+    "prod": "tsc && node ./build/app.js"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.40"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.0",
+    "express": "^4.17.1",
+    "typescript": "^3.5.1"
+  }
+}

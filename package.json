@@ -30,5 +30,10 @@
     "installations": [
       "nyc here is used by Visual Studio Code"
     ]
+  },
+  "dependencies": {
+    "nest": "^0.1.6",
+    "nestjs": "0.0.1",
+    "typescript": "^3.5.1"
   }
 }
