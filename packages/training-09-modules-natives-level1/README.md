@@ -1,5 +1,11 @@
 # Native Nodejs modules
 
+Introduction to some native api:
+
+- [Timers](#timers)
+- [Events](events)
+- [File System](file-system)
+
 ## Timers
 
 See https://nodejs.org/api/timers.html#timers_scheduling_timers
@@ -87,7 +93,16 @@ TRAINING Execute _app-09-event-03-class-bug.js_ and next, find and correct the 2
 
 ## File System
 
+See https://nodejs.org/api/fs.html
 
-## child_process
+TRAINING Read a file in async mode, execute _app-09-fs-01-read-json-async.js_
 
-https://jscomplete.com/learn/node-beyond-basics/child-processes
+### File Streams
+
+TRAINING Read a file using stream, execute _app-09-fs-02-stream-read.js_
+
+TRAINING Write a file using stream, execute*app-09-fs-03-stream-write.js*
+
+TRAINING Read and write a file using pipe on streams, execute _app-09-fs-04-stream-pipe.js_
+
+TRAINING Details using pipe on stream, execute _app-09-fs-05-stream-pipe-details.js_

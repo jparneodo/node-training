@@ -18,33 +18,33 @@ const reader = fs.createReadStream(JSON_FILENAME, {
 });
 
 reader.on('open', data => {
-  console.log('stream open', { data, fd: reader.fd });
+  console.log('reader open', { data, fd: reader.fd });
 });
 
 reader.on('ready', data => {
-  console.log('stream ready', { data });
+  console.log('reader ready', { data });
 });
 
 reader.on('close', data => {
-  console.log('stream close', { data });
+  console.log('reader close', { data });
 });
 
 reader.on('data', data => {
   jsonString += data;
-  console.log(`stream data <[${data}]>`);
+  console.log(`reader data <[${data}]>`);
 });
 
 reader.on('end', data => {
   jsonObject = JSON.parse(jsonString);
-  console.log('stream end', { data, jsonString, jsonObject });
+  console.log('reader end', { data, jsonString, jsonObject });
 });
 
 reader.on('error', data => {
-  console.log('stream error', data);
+  console.log('reader error', data);
 });
 
 reader.on('pause', data => {
-  console.log('stream pause', data);
+  console.log('reader pause', data);
 });
 
 reader.on('readable', data => {
@@ -54,5 +54,5 @@ reader.on('readable', data => {
     //    console.log(`Received ${chunk.length} bytes of data.`);
     json += chunk;
   }
-  console.log('stream readable', { data, json });
+  console.log('reader readable', { data, json });
 });

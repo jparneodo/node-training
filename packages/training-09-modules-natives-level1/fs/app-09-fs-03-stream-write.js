@@ -4,76 +4,94 @@
 const path = require('path');
 const fs = require('fs');
 
-// Data
-const JSON_FILENAME = path.join(__dirname, 'logs', 'out.json');
-const READ_LENGTH = 4;
-
-const jsonString = JSON.stringify(
-  {
-    hello: 'world',
-    at: new Date().toISOString(),
-  },
-  null,
-  2
-);
-const jsonArray = jsonString.split('\n');
-
 // https://nodejs.org/api/fs.html#fs_fs_createreadstream_path_options
 // https://nodejs.org/api/stream.html#stream_class_stream_readable
-const writer = fs.createWriteStream(JSON_FILENAME, {
-  encoding: 'utf8',
-  flag: 'w',
-});
 
-writer.on('open', data => {
-  console.log('stream open', { data, fd: writer.fd });
-});
+// App
 
-writer.on('ready', data => {
-  console.log('stream ready', { data });
-  for (let str in jsonArray) {
-    writer.write(str);
-  }
-  writer.end();
-});
+async function saveJson(jsonObject, jsonFileName, readLength) {
+  // Json string formatted
+  const jsonString = JSON.stringify(jsonObject, null, 2);
+  // Json string splitted by lines
+  const jsonArray = jsonString.split('\n');
 
-writer.on('close', data => {
-  console.log('stream close', { data });
-});
+  // Async promise
+  return new Promise((resolve, reject) => {
+    // The file stream
+    const writer = fs.createWriteStream(jsonFileName, {
+      encoding: 'utf8',
+      flag: 'w',
+    });
 
-writer.on('error', data => {
-  console.log('stream error', { data });
-});
+    writer.on('open', data => {
+      console.log('writer open', { data, fd: writer.fd });
+    });
 
-writer.on('data', data => {
-  console.log(`stream data <[${data}]>`);
-});
+    writer.on('ready', data => {
+      console.log('writer ready', { data });
+      for (let str of jsonArray) {
+        writer.write(str);
+        writer.write('\n\n');
+      }
+      writer.end();
+    });
 
-writer.on('end', data => {
-  jsonObject = JSON.parse(jsonString);
-  console.log('stream end', { data, jsonString, jsonObject });
-});
+    writer.on('close', data => {
+      console.log('writer close', { data });
+      resolve();
+    });
 
-writer.on('error', data => {
-  console.log('stream error', data);
-});
+    writer.on('error', data => {
+      console.log('writer error', { data });
+      reject();
+    });
 
-writer.on('pause', data => {
-  console.log('stream pause', data);
-});
+    writer.on('data', data => {
+      console.log(`writer data <[${data}]>`);
+    });
 
-writer.on('drain', data => {
-  console.log('stream drain', data);
-});
+    writer.on('end', data => {
+      jsonObject = JSON.parse(jsonString);
+      console.log('writer end', { data, jsonString, jsonObject });
+    });
 
-writer.on('pipe', data => {
-  console.log('stream pipe', data);
-});
+    writer.on('error', data => {
+      console.log('writer error', data);
+    });
 
-writer.on('unpipe', data => {
-  console.log('stream unpipe', data);
-});
+    writer.on('pause', data => {
+      console.log('writer pause', data);
+    });
 
-writer.on('finish', data => {
-  console.log('stream finish', { data });
+    writer.on('drain', data => {
+      console.log('writer drain', data);
+    });
+
+    writer.on('pipe', data => {
+      console.log('stream pipe', data);
+    });
+
+    writer.on('unpipe', data => {
+      console.log('writer unpipe', data);
+    });
+
+    writer.on('finish', data => {
+      console.log('writer finish', { data });
+    });
+  });
+}
+
+// Program
+
+const json = {
+  hello: 'world',
+  at: new Date().toISOString(),
+};
+
+const JSON_FILENAME = path.join(__dirname, 'logs', 'out.json');
+
+const READ_LENGTH = 4;
+
+saveJson(json, JSON_FILENAME, READ_LENGTH).then(() => {
+  console.log('the end');
 });
