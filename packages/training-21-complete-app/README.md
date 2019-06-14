@@ -60,4 +60,19 @@ TRAINING Add RBAC on `Car` resource using `nest-access-control` module
 
 ## Loopback
 
+Install the project:
+
+```sh
+# Install from package.json
+npm lb4:install
+
+# Create the first app
+npm run lb4 -- myapp
+```
+
+In browser look at:
+
+- http://localhost:3000/ping
+- http://localhost:3000/
+
 TRAINING Add RBAC on `Car` resource using `loopback-4-accesscontrol` module

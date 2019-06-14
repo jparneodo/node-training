@@ -1,0 +1,8 @@
+{
+  "name": "loopback4-sample",
+  "scripts": {
+    "lb4:install": "npm install @loopback/cli",
+    "lb4": "node node_modules/@loopback/cli/bin/cli-main.js"
+  },
+  "dependencies": {}
+}

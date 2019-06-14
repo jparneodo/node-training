@@ -16,3 +16,7 @@ source /tmp/vscode.extension.txt
 - Install one by one
 
 The recommendatations are in `.vscode/extensions.json` file
+
+## Using `Shan.code-settings-sync` extension and Github Gist
+
+You need to read the documentation for that.
