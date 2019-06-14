@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "koa:install": "npm run koa:install:git && npm run koa:install:npm",
+    "koa:install:git": "git clone https://github.com/Cody2333/koa-swagger-decorator.git",
+    "koa:install:npm": "(cd koa-swagger-decorator; npm install; npm run start)"
   },
   "author": "",
   "license": "ISC",

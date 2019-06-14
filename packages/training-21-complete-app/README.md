@@ -19,4 +19,20 @@ npm run express:cli -- --view pug -css less --git mywebapp
 
 ## Koa
 
+This project is a Swagger API example with documentation generated from javascript source.
+
+Install the project:
+
+```sh
+# Install from package.json
+npm koa:install
+```
+
+Generated Swagger documentation:
+
+- http://localhost:3000/api/v1/swagger-html
+- http://localhost:3000/api/v2/swagger-html
+
+TRAINING Add v1 Car RESTful resource and look at the documentation
+
 ## Nestjs
