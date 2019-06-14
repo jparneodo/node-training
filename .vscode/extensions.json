@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "christian-kohler.npm-intellisense",
+    "eg2.vscode-npm-script",
+    "esbenp.prettier-vscode",
+    "formulahendry.code-runner",
+    "Gruntfuggly.todo-tree",
+    "maty.vscode-mocha-sidebar",
+    "Orta.vscode-jest",
+    "xabikos.JavaScriptSnippets"
+  ]
+}

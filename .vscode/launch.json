@@ -7,6 +7,13 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "Training 21 - Express mywebapp",
+      "program": "${workspaceFolder}/packages/training-21-complete-app/expressjs/mywebapp/app.js",
+      "args": []
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "Launch Program",
       "program": "${workspaceFolder}/index.js"
     }

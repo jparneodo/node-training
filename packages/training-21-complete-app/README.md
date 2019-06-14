@@ -25,8 +25,8 @@ TRAINING Add Authentication using `passport-http` module
 
 Help:
 
-- http://www.passportjs.org/docs/basic-digest/
-- http://www.passportjs.org/packages/
+- See how to use : http://www.passportjs.org/docs/basic-digest/
+- All available passport methods: http://www.passportjs.org/packages/
 
 TRAINING Add RBAC on `cars` route using `accesscontrol` module
 
