@@ -9,7 +9,7 @@ Questions and sujects to perceive:
 - License, documentation, performance
 - Weekly downloads
 - Trend
-- Remaining issues, last maintenance date
+- Remaining issues, last maintenance date, code coverage
 - Required dependencies
 - Dependents: how many, famous
 

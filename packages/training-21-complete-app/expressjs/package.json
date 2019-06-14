@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "express:cli": "node node_modules/express-generator/bin/express-cli.js"
+    "express:cli": "node node_modules/express-generator/bin/express-cli.js",
+    "express:pug": "npm run express:cli -- --view pug -css less --git mywebapp"
   },
   "author": "",
   "license": "ISC",
