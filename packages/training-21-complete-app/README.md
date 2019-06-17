@@ -4,6 +4,8 @@ A webapp exposing GUI and REST API.
 
 ## Expressjs
 
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+
 This project is webapp using expressjs http server.
 
 Install [Expressjs CLI](http://expressjs.com/en/starter/generator.html) in global or use these commands instead:
@@ -32,6 +34,8 @@ TRAINING Add RBAC on `cars` route using `accesscontrol` module
 
 ## Koa
 
+Koa is a new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs.
+
 This project is a Swagger API example with documentation generated from javascript source.
 
 Install the project:
@@ -54,7 +58,7 @@ TRAINING Add RBAC on `Car` resource using `koa-accesscontrol` module
 
 ## Nestjs
 
-This project is ...
+Nest is a framework for building efficient, scalable Node.js server-side applications. It uses progressive JavaScript, is built with and fully supports TypeScript.
 
 Install Nestjs as a global package:
 

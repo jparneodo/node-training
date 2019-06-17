@@ -2,9 +2,20 @@
 
 Introduction to some native api:
 
+- [HTTP](#http)
 - [Timers](#timers)
 - [Events](events)
 - [File System](file-system)
+
+## HTTP
+
+HTTP client and server module.
+
+See https://nodejs.org/dist/latest-v12.x/docs/api/http.html
+
+TRAINING Execute _app-09-http-01-get.js_, _app-09-http-02-server.js_
+
+TRAINING Merge server and get statements in the same file and compare payloads.
 
 ## Timers
 
