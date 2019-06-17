@@ -9,7 +9,7 @@ Introduction to some native api:
 
 ## HTTP
 
-HTTP client and server module.
+Native HTTP client and server module.
 
 See https://nodejs.org/dist/latest-v12.x/docs/api/http.html
 
