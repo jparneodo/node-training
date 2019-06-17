@@ -38,7 +38,7 @@ Install the project:
 
 ```sh
 # Install from package.json
-npm koa:install
+npm run koa:install
 ```
 
 Generated Swagger documentation:
@@ -54,7 +54,29 @@ TRAINING Add RBAC on `Car` resource using `koa-accesscontrol` module
 
 ## Nestjs
 
-....
+This project is ...
+
+Install Nestjs as a global package:
+
+```sh
+# Install from package.json
+npm run nestjs:global-install
+
+# Create the first app
+nest new myapp
+```
+
+TRAINING Look at https://docs.nestjs.com/first-steps and create the first controller
+
+```sh
+# Controller cats
+nest generate controller cats
+```
+
+```sh
+# Install testing tools
+npm install --save-dev @nestjs/testing
+```
 
 TRAINING Add RBAC on `Car` resource using `nest-access-control` module
 
@@ -64,7 +86,7 @@ Install the project:
 
 ```sh
 # Install from package.json
-npm lb4:install
+npm run lb4:install
 
 # Create the first app
 npm run lb4 -- myapp

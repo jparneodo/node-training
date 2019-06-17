@@ -1,0 +1,12 @@
+{
+  "name": "nestjs-sample",
+  "description": "CLI installation in GLOBAL mode (sorry)",
+  "version": "1.0.0",
+  "scripts": {
+    "nest:global-install": "npm install -g @nestjs/cli",
+    "nest:global-uninstall": "npm uninstall -g @nestjs/cli"
+  },
+  "dependencies": {
+    "@nestjs/cli": "^6.5.0"
+  }
+}

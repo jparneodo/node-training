@@ -15,5 +15,8 @@ find $DIR -name package-lock.json -exec rm -rf {} /dev/null \;
 rm -rf $DIR/packages/training-21-complete-app/koa/koa-swagger-decorator
 rm -rf $DIR/packages/training-21-complete-app/expressjs/mywebapp
 rm -rf $DIR/packages/training-21-complete-app/loopback4/myapp
+rm -rf $DIR/packages/training-21-complete-app/nestjs/myproject
 
+# Globally installed modules
+npm uninstall -g nest
 
