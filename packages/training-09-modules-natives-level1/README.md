@@ -17,7 +17,7 @@ TRAINING Execute _app-09-http-01-get.js_, _app-09-http-02-server.js_
 
 TRAINING Merge server and get statements in the same file and compare payloads.
 
-Huge used client module (not a native module):
+Request client module (not a native module):
 
 ```sh
 # See https://www.npmjs.com/package/request
