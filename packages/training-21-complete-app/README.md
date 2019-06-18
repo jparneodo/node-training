@@ -56,6 +56,8 @@ If you want to choose specs to source coding alternative you can look at https:/
 
 TRAINING Add RBAC on `Car` resource using `koa-accesscontrol` module
 
+TRAINING Start `npm-check` command to see possible module upgrades
+
 ## Nestjs
 
 Nest is a framework for building efficient, scalable Node.js server-side applications. It uses progressive JavaScript, is built with and fully supports TypeScript.

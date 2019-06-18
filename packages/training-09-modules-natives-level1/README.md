@@ -124,3 +124,5 @@ TRAINING Write a file using stream, execute*app-09-fs-03-stream-write.js*
 TRAINING Read and write a file using pipe on streams, execute _app-09-fs-04-stream-pipe.js_
 
 TRAINING Details using pipe on stream, execute _app-09-fs-05-stream-pipe-details.js_
+
+TRAINING Use the gzip compression module to compresse before saving file

@@ -90,8 +90,8 @@ Installing as a global command can interfer with multiple projects with differen
 
 TRAINING Try these commands and look at the _package.json_ changes and the subdirectory structure
 
-```bash
-# Install as a global shell script command (avoid)
+```sh
+# Install as a global shell script command (intrusive, to avoid)
 # $ npm install --global mocha
 # $ mocha
 
@@ -113,6 +113,15 @@ $ npm install
 $ npm list
 ```
 
-Learn more:
+## Checking new module versions
+
+```sh
+# Install module as global command, this command is used only
+npm install -g npm-check
+```
+
+## Learn more:
+
+Try to install:
 
 - [env-var](https://github.com/evanshortiss/env-var/blob/master/package.json) - Verification, sanatization, and type coercion for environment variables

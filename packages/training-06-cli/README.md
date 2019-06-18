@@ -40,7 +40,7 @@ node [options] [V8 options] [script.js | -e "script" | - ] [arguments]
 Two method exists:
 
 - CJS - Node Modules (a CommonJS variant). Historical Node loader
-- ESM - Ecma262 Modules (ES Modules) - See [roadmap](https://github.com/nodejs/modules/blob/master/doc/plan-for-new-modules-implementation.md)
+- ESM - Ecma262 Modules (ES Modules) - See [roadmap](https://github.com/nodejs/modules/blob/master/doc/plan-for-new-modules-implementation.md) and [2ality blog](http://2ality.com/2019/04/nodejs-esm-impl.html)
 
 TRAINING [Learn about methods](https://github.com/nodejs/node-eps/blob/master/002-es-modules.md)
 
