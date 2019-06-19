@@ -34,6 +34,7 @@ Use _shan.code-settings-sync_ extension to synchronize all vsc with same setting
 
 - [Node.js Best Practices](https://github.com/i0natan/nodebestpractices#1-project-structure-practices), and [translations](https://github.com/i0natan/nodebestpractices#translations) ([français](https://github.com/gaspaonrocks/nodebestpractices/blob/french-translation/README.french.md))
 - [On Twitter](https://twitter.com/nodepractices/)
+- Generic directives [Twelve factor](https://www.12factor.net/)
 
 TRAINING Try using configured guidelines starting `npm run` commands in `exo-05-01-standardjs`
 
@@ -129,9 +130,3 @@ Continuous Integration and Continuous Delivery and/or Continuous Deployment tool
 - https://sonarcloud.io
 - https://coveralls.io/
 - ... and more
-
-TODO Docker
-
-## TODO subject to complete
-
-    		https://medium.com/@joantolos/6-tools-to-help-you-do-tdd-with-nodejs-70d19a9ca041

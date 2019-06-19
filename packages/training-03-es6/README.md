@@ -34,3 +34,5 @@ TRAINING with https://github.com/airbnb/javascript for best practices
 ## Complete and improve you knowledge by yourself
 
 As you want ...
+
+##

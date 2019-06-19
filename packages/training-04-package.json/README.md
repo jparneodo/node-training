@@ -124,4 +124,68 @@ npm install -g npm-check
 
 Try to install:
 
-- [env-var](https://github.com/evanshortiss/env-var/blob/master/package.json) - Verification, sanatization, and type coercion for environment variables
+- [env-var](https://github.com/evanshortiss/env-var/blob/master/package.json) - Verification, sanitation, and type coercion for environment variables
+
+## Publishing modules
+
+Using Node.js Best Practices (next chapter), you must split your code in components.
+
+### Private package
+
+A project can be a package, and a package can be published to a private repository.
+
+See https://docs.npmjs.com/creating-and-publishing-private-packages
+
+But not easy, a lot of project to maintain.
+
+### Using scope and local package
+
+See :
+
+- https://docs.npmjs.com/about-scopes
+- https://medium.com/@the1mills/how-to-test-your-npm-module-without-publishing-it-every-5-minutes-1c4cb4b369be
+
+Deploy your package in a subdirectory of your project.
+
+```sh
+# in a new directory, reproduce this structure
+.
+├── app.js
+├── node_modules
+│   └── @jp
+│       └── m1 -> ../../packages/m1
+├── package.json
+├── package-lock.json
+└── packages
+    └── m1
+        ├── index.js
+        └── package.json
+```
+
+```sh
+# in a new directory create a module ./packages/m1.js
+mkdir myapp packages packages/m1
+cd myapp/packages/m1
+cat > index.js
+  module.exports = function () {
+  return 'm1';
+  }
+npm help init
+
+cd myapp
+cat > app.js
+  const m1 = require('@jp/m1');
+  console.log(m1());
+
+npm install --save ./packages/m1
+more package.json
+node app.js
+```
+
+See a full example: [Kibana](https://github.com/elastic/kibana)
+
+TRAINING Add the required module in local package in `exo-04-03-scope` and use it in app.js
+
+### Using lerna
+
+See https://lerna.js.org/

@@ -2,6 +2,7 @@
 
 - Official documentation: https://www.typescriptlang.org/docs/home.html
 - Some tutorials https://www.tutorialspoint.com/typescript
+- Static versus dynamic languages https://danluu.com/empirical-pl/
 
 ## Installation
 
