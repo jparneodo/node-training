@@ -122,6 +122,17 @@ TODO test / cucumber
 - https://istanbul.js.org/
 - https://www.npmjs.com/package/mocha-lcov-reporter
 
+## Puppeteer
+
+A headless browser is a great tool for automated testing and server environments where you don't need a visible UI shell. For example, you may want to run some tests against a real web page, create a PDF of it, or just inspect how the browser renders an URL.
+
+See
+
+- Getting Started https://developers.google.com/web/updates/2017/04/headless-chrome
+- [Github](https://github.com/GoogleChrome/puppeteer), [API](https://github.com/GoogleChrome/puppeteer/blob/v1.18.0/docs/api.md) and [examples](https://github.com/GoogleChrome/puppeteer/tree/master/examples/)
+
+TRAINING Try examples in `exo-05-09-puppeteer`
+
 ## CI / CD
 
 Continuous Integration and Continuous Delivery and/or Continuous Deployment tools:
