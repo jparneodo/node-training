@@ -133,6 +133,8 @@ See
 
 TRAINING Try examples in `exo-05-09-puppeteer`
 
+Next steps: use [Pixelmatch](https://github.com/mapbox/pixelmatch) to compare images.
+
 ## CI / CD
 
 Continuous Integration and Continuous Delivery and/or Continuous Deployment tools:
