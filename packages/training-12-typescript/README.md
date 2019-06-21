@@ -105,3 +105,12 @@ Create a file with this exact name for a foo module: `foo.d.ts` and write your o
 ## Full samples
 
 See https://www.typescriptlang.org/samples/
+
+## Generation TypeScript API from Swagger Specs
+
+Using a Microsoft Azure tool:
+
+- https://github.com/Azure/autorest
+- https://github.com/Azure/autorest/blob/master/docs/examples/generating-a-client.md
+
+TRAINING Generate the corresponding TS code

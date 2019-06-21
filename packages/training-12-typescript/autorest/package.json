@@ -1,0 +1,15 @@
+{
+  "name": "autorest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "swagger:petstore": "npm run autorest:typescript -- --input-file=petstore.yaml --output-folder=petstore",
+    "autorest:typescript": "autorest --typescript --use=@microsoft.azure/autorest.typescript@2.3.3 --enum-types=true"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@azure/ms-rest-js": "^1.8.13"
+  }
+}
