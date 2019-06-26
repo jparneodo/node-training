@@ -1,5 +1,5 @@
 {
-  "name": "exo-04-03-lerna",
+  "name": "mymodule",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,8 +8,5 @@
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
-  "dependencies": {
-    "@jp/m1": "file:packages/m1"
-  }
+  "type": "commonjs"
 }

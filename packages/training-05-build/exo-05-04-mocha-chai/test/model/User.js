@@ -28,6 +28,6 @@ describe('Model User', function() {
       .to.equal(1);
     expect(user2)
       .to.have.property('username')
-      .to.equal('John');
+      .to.equal('Johnny');
   });
 });

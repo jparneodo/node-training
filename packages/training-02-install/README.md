@@ -15,6 +15,9 @@ Download and install from latest stable release from [official Node.js website](
 Install via [n-install](https://github.com/tj/n) to switch to a specific node version.
 
 ```bash
+# Some dependencies
+sudo apt-get install curl git build-essentials
+
 # Install the LTS Node.js version
 curl -L https://git.io/n-install | bash -s -- -y lts
 ```

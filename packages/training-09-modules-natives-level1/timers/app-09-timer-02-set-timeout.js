@@ -7,8 +7,14 @@ function execNow(arg) {
   counter++;
 }
 
-setTimeout(execNow, 1000, 'one');
+setTimeout(execNow, 5000, 'one');
 
-setTimeout(execNow, 2000, 'two');
+console.log('A');
 
-setTimeout(execNow, 3000, 'three');
+setTimeout(execNow, 15000, 'three');
+
+console.log('B');
+
+setTimeout(execNow, 10000, 'two');
+
+console.log('C');

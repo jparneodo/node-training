@@ -103,4 +103,14 @@ In browser look at:
 - http://localhost:3000/ping
 - http://localhost:3000/
 
+TRAINING Add components to `myapp` project
+
+```sh
+npm run lb4 -- myapp
+npm run lb4 -- model user
+npm run lb4 -- repository repo --model user
+npm run lb4 -- datasource myds
+npm run lb4 -- controller user
+```
+
 TRAINING Add RBAC on `Car` resource using `loopback-4-accesscontrol` module

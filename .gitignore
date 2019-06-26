@@ -63,6 +63,9 @@ typings/
 # Generated documentation
 jsdocs/
 
+# No need to lock packages for trainings
+package-lock.json
+
 # Trainings
 packages/training-05-build/exo-05-03-mocha-sample/src
 packages/training-05-build/exo-05-03-mocha-sample/test

@@ -1,15 +1,12 @@
 {
-  "name": "exo-04-03-lerna",
+  "name": "exo-06-01-cjs",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app-1-from-cjs.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {},
-  "dependencies": {
-    "@jp/m1": "file:packages/m1"
-  }
+  "type": "module"
 }
